@@ -1,7 +1,14 @@
+import { Link } from 'react-router-dom'
+
 
 const HomePage = (props) => {
     return (
-        <h1>Tune it up</h1>
+        <div className="HomePage">
+            <h1>HomePage</h1>
+
+        </div>
+        
+        
     )
 }
 
