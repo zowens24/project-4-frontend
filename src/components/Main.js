@@ -1,12 +1,16 @@
-import Songs from './Song.js';
+import Songs from './Songs.js';
 
 function Main({ songs }) {
     return (
-        <main>
-            <Songs
+       
+            
+                <main>
+                <Songs 
                 songs={songs}
-            />
-        </main>
+                />
+            </main>
+         
+      
     );
 }
 

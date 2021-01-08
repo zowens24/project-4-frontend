@@ -3,11 +3,11 @@ import Song from './Song.js';
 function Songs( {songs} ) {
     return (
         <div>
-            {songs.map(song =>
-                <Song 
-                key={song.id}
-                song={song}
-                />
+          {songs.map(song =>
+            <Song
+            key={song.id}
+            song={song}
+            />
             )}
         </div>
     );

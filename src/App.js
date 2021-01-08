@@ -15,7 +15,8 @@ function App(props) {
         <Route exact path='/' render={(props) =>
         <HomePage />} />
         <Route exact path='/songs' render={(props) => 
-        <SongPage />} />
+        <SongPage
+        />} />
       </Switch>
       <Footer />
     </div>
