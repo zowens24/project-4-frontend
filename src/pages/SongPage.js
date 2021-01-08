@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import Main from '../components/Main';
 
 
 const SongPage = (props) => {
@@ -21,8 +21,12 @@ const SongPage = (props) => {
 
 
     return (
-        <h1>Hello
-        </h1>
+        <div>
+            <Main
+            songs={songsState.songs}
+            />
+        </div>
+        
     )
 }
 
