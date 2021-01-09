@@ -1,14 +1,17 @@
-import Song from './Song.js';
+import Song from './Song';
+import React from 'react';
 
-function Songs( {songs} ) {
+function Songs({songs, handleDelete, handleUpdate}) {
     return (
-        <div>
-          {songs.map(song =>
-            <Song
+        <div className='Songs'>
+        {songs.map(song =>
+            <Song 
             key={song.id}
             song={song}
+            handleDelete={handleDelete}
+            handleUpdate={handleUpdate}
             />
-            )}
+        )}
         </div>
     );
 }
