@@ -1,20 +1,28 @@
+import '../App.css'
+
+import Audio from './Audio';
+
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMusic } from "@fortawesome/free-solid-svg-icons";
+
 
 const Header = (props) => {
+
+
+
     return (
-        <div className="Header">
-            <h1> Tune It Up</h1>
-            <nav>
-                <ul className="NavLinks">
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/songs">Song</Link></li>
+        <header className="Header">
 
-                </ul>
-            </nav>
-            
+            <div className="logo">
+            <Link className="logo" to='/'><FontAwesomeIcon icon={faMusic}/></Link>
+            </div>
+            <div className="audio">
+                
+            <Audio />
 
-
-        </div>
+            </div>
+        </header>
     )
 }
 export default Header;

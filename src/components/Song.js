@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Form from './Form';
+import '../App.css'
 
 
 function Song(props) {
@@ -31,8 +32,8 @@ function Song(props) {
         <div className='Song'>
             <h3>{props.song.artist}</h3>
             <p>{props.song.title}</p>
-            <button onClick={() => props.handleDelete(props.song)}>x</button>
-            <button onClick={toggleForm}>edit</button>
+            <button className='btn-1' onClick={() => props.handleDelete(props.song)}>X</button>
+            <button className='btn-2' onClick={toggleForm}>Edit</button>
         </div>   
 
         }
