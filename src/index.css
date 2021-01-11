@@ -21,7 +21,7 @@ h1 {
 header {
   grid-area: header;
   background-color: rgb(212, 154, 66);
-  border-radius: 5px;
+  border-bottom: 5px solid black;
 }
 
 nav {
@@ -30,6 +30,7 @@ nav {
   background-color: rgb(212, 154, 66);
   border: 5px solid rgb(131, 34, 34);
   border-radius: 5px;
+  height: 7%;
 }
 
 main {
@@ -45,12 +46,14 @@ aside {
   border: 5px solid rgb(131, 34, 34);
   border-radius: 5px;
   color: rgb(131, 34, 34);
+  height: 30%;
+  position: relative;;
 }
 
 footer {
   grid-area: footer;
   height: 40px;
-  position:absolute;
+  position:relative;
   bottom:0px;
   width: 100%;
   background-color:none;
@@ -109,7 +112,7 @@ form > button {
 
 body {
   margin: 0;
-  background-image: url('https://ma-hub.imgix.net/wp-images/2019/05/04185051/royalty-free-music-Background.jpg?w=1600&h=850&auto=format');
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fil6.picdn.net%2Fshutterstock%2Fvideos%2F3683201%2Fthumb%2F1.jpg&f=1&nofb=1');
   background-position: center;
   background-repeat:repeat-y;
   background-size: cover;
