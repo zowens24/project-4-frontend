@@ -32,7 +32,7 @@ nav {
   background-color: rgb(212, 154, 66);
   border: 5px solid rgb(131, 34, 34);
   border-radius: 5px;
-  height: 7%;
+ 
 }
 
 main {
@@ -50,7 +50,7 @@ aside {
   border: 5px solid rgb(131, 34, 34);
   border-radius: 5px;
   color: rgb(131, 34, 34);
-  height: 30%;
+  
   position: relative;;
 }
 
@@ -164,4 +164,7 @@ body {
 .homelink{
   text-decoration: none;
   color: white ;
+}
+.homelink:hover {
+  color:rgb(131, 34, 34);
 }
