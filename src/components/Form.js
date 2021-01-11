@@ -1,3 +1,5 @@
+import '../App.css'
+
 import { useState, useEffect } from 'react';
 import Input from './Input.js';
 
@@ -29,7 +31,15 @@ function Form(props) {
     if(props.song) formState.id = props.song.id;
     props.handleSubmit(event, formState);
   }
+
+
+  function formValid() {
+    return !!(formState.title && formState.artist);
+  }
+
     return (
+      <div className="Form">
+
       <form onSubmit={handleSubmit}>
         <Input
           handleChange={handleChange}
@@ -38,7 +48,7 @@ function Form(props) {
           type="text"
           value={formState.title}
           id="title"
-         />
+          />
          <Input
            handleChange={handleChange}
            name="artist"
@@ -46,10 +56,15 @@ function Form(props) {
            type="text"
            value={formState.artist}
            id="artist"
-        />
+           />
     
-       <input type="submit" value={props.song ? 'Edit' : 'Add'}/>
+       <input 
+       disabled={!formValid()} 
+       type="submit" 
+       value={props.song ? 'Edit' : 'Add'}/>
       </form>
+      
+       </div>
     );
   }
 

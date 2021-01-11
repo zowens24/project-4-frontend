@@ -1,5 +1,7 @@
 import Aside from '../components/Aside'
 import Main from '../components/Main';
+import Nav from '../components/Nav';
+import Footer from '../components/Footer';
 
 import {useState, useEffect } from 'react';
 
@@ -62,12 +64,17 @@ function SongPage() {
 
 return (
    <div className="SongPage">
+     <div className="container">
+
      <Aside handleSubmit={handleAdd} />
      <Main 
      songs={songsState.songs}
      handleDelete={handleDelete}
      handleUpdate={handleUpdate}
      />
+     <Nav />
+     <Footer />
+     </div>
     </div>
   );
 }

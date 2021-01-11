@@ -1,7 +1,7 @@
 import './App.css';
 
 
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 import Header from './components/Header';
 
 
@@ -22,7 +22,7 @@ function App(props) {
 return (
 
   <div className="App">
-    <div className="container">
+    <div>
 
       <Header />
 
@@ -36,7 +36,7 @@ return (
 
       </Switch>
 
-      <Footer />
+      {/* <Footer /> */}
 
       </div>
   </div>

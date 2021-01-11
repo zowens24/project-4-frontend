@@ -5,6 +5,7 @@ function Aside(props) {
       <aside>
         <h1>Put your favorite Song!</h1>
         <Form handleSubmit={props.handleSubmit}/>
+        
       </aside>
     );
 }
