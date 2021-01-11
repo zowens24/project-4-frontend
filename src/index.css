@@ -4,6 +4,8 @@
 
 h1 {
   text-align: center;
+  color: white;
+  
 }
 .container {
   display: grid;
@@ -34,7 +36,9 @@ nav {
 
 main {
   grid-area: content;
-  background-color: none;
+ 
+  
+  
   
 }
 
@@ -55,6 +59,7 @@ footer {
   width: 100%;
   background-color:none;
   color: rgb(131, 34, 34);
+  margin-bottom: -50px;
 }
 .Song {
   border: 5px solid rgb(212, 154, 66);
@@ -70,6 +75,7 @@ footer {
   list-style: none;
   display: flex;
   margin-top: 15px;
+  
 }
 
 button {
@@ -111,9 +117,10 @@ body {
   margin: 0;
   background-image: url('https://ma-hub.imgix.net/wp-images/2019/05/04185051/royalty-free-music-Background.jpg?w=1600&h=850&auto=format');
   background-position: center;
-  background-repeat:repeat-y;
+  background-repeat: repeat;
   background-size: cover;
   position: relative;
+  
 
 }
 
@@ -141,4 +148,17 @@ body {
   nav {
     padding: 20px 20%
   }
+}
+
+.songlink {
+  text-decoration: none;
+  color: white;
+}
+.songlink:hover {
+  color: orange;
+}
+
+.homelink{
+  text-decoration: none;
+  color: white ;
 }

@@ -1,7 +1,7 @@
 import './App.css';
 
 
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 import Header from './components/Header';
 
 
@@ -36,7 +36,7 @@ return (
 
       </Switch>
 
-      {/* <Footer /> */}
+      <Footer />
 
       </div>
   </div>
