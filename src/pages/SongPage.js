@@ -1,7 +1,6 @@
 import Aside from '../components/Aside'
 import Main from '../components/Main';
 import Nav from '../components/Nav';
-import Footer from '../components/Footer';
 
 import {useState, useEffect } from 'react';
 
@@ -73,7 +72,6 @@ return (
      handleUpdate={handleUpdate}
      />
      <Nav />
-     <Footer />
      </div>
     </div>
   );

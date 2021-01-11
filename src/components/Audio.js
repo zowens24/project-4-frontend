@@ -12,7 +12,7 @@ export default class extends Component {
 
     return (
       <div>
-        <iframe className="widget" allow="autoplay" width="16%" height="50px" src="https://www.iheart.com/artist/calvin-harris-60352/?embed=true" frameborder="0"></iframe>
+        <iframe className="widget" allow="autoplay" width="60%" height="50px" src="https://www.iheart.com/artist/calvin-harris-60352/?embed=true" frameborder="0"></iframe>
       </div>
     )
   }

@@ -51,3 +51,37 @@
   .btn-2:hover {
     cursor: pointer;
   }
+
+  .Header a {
+    text-decoration: none;
+    color: white;
+}
+  .Header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .logo {
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: 45px;
+  }
+
+  .audio {
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+  }
+
+  .NavLinks {
+    list-style: none;
+    display: flex;
+    margin-top: 15px;
+}
+
+.NavLinks li {
+    margin-right: 20px;
+    font-size: 30px;
+}
