@@ -26,7 +26,7 @@
 
  ### Getting Started:
  Trello Board - https://trello.com/b/fW3Fedaq/project
- Deploy Here - 
+ Deploy Here - https://tune-it-up.netlify.app/
 
  ### Future Enhancements:
 - Add playlists feature
