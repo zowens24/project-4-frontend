@@ -3,7 +3,7 @@ import '../App.css'
 
 function Nav(props) {
     return (
-      <nav>
+      <nav  className='Nav'>
         <ul className="NavLinks">
             <li ><Link to="/" className="homelink">Home</Link></li>
             
