@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Stylish&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 
 h1 {
@@ -156,9 +157,13 @@ body {
 .songlink {
   text-decoration: none;
   color: white;
+  font-weight: 600;
+  font-size: 30px;
+  -webkit-text-stroke: 2px black;
+  font-family: 'Permanent Marker', cursive;
 }
 .songlink:hover {
-  color: orange;
+  color: rgb(212, 154, 66);
 }
 
 .homelink{

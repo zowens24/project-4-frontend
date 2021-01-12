@@ -4,8 +4,10 @@ import {Link} from 'react-router-dom';
 const HomePage = (props) => {
     return (
         <div className="HomePage">
-            <h1>HomePage</h1>
-        <Link to= '/songs' className="songlink" >Songs</Link>
+           
+            
+        <Link to= '/songs' className="songlink" >CLICK HERE TO VIEW YOUR PLAYLIST</Link>
+        <h3>Welcome to Tune It Up!</h3>
         </div>
         
         
