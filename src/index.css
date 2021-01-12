@@ -30,9 +30,8 @@ header {
 nav {
   grid-area: nav;
   margin-left: 0.5rem;
-  background-color: rgb(212, 154, 66);
-  border: 5px solid rgb(131, 34, 34);
-  border-radius: 5px;
+  
+
  
 }
 
@@ -61,10 +60,17 @@ footer {
   position:absolute;
   bottom:0px;
   width: 100%;
-  background-color:black;
-  color: rgb(131, 34, 34);
+  background-image:url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fak3.picdn.net%2Fshutterstock%2Fvideos%2F727393%2Fthumb%2F1.jpg&f=1&nofb=1');
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  font-size: large;
   margin-bottom: -50px;
   padding-bottom: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 .Song {
   border: 5px solid rgb(212, 154, 66);
@@ -173,4 +179,18 @@ body {
 }
 .homelink:hover {
   color:rgb(131, 34, 34);
+}
+
+.welcome {
+  
+  
+margin-top: 50px;
+margin-right: 200px;
+margin-left: 200px;
+  color: white;
+  font-size: 32px;
+  background-color:  rgba(131, 34, 34,.6);
+  border-radius: 25px;
+  border: 5px dotted orange;
+  
 }

@@ -70,7 +70,9 @@
     padding-bottom: 10px;
     font-size: 45px;
   }
-
+.logo:hover {
+  color:rgb(131, 34, 34);
+}
   .audio {
     margin-left: 20px;
     margin-top: 10px;
@@ -86,4 +88,16 @@
 .NavLinks li {
     margin-right: 20px;
     font-size: 30px;
+}
+.link-1:hover {
+  color: rgb(131, 34, 34);
+}
+.link-2:hover {
+  color: rgb(131, 34, 34);
+}
+.link-1 {
+  margin-right: 60px;
+}
+.links {
+  font-size: 20px;
 }
